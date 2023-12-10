@@ -28,17 +28,17 @@
         display: block;
         margin-right: 50px;
     }
-    .menu__list-item:last-child{
+    .menu__list-item:last-child {
         margin-left: 30px;
         margin-right: 0;
     }
     .gallery {
         padding-top: 50px;
     }
-    .hide{
+    .hide {
         display: none;
     }
-    .features__content-right{
+    .features__content-right {
         padding: 0;
         gap: 0;
         text-align: start;
@@ -47,7 +47,6 @@
 
 @media (max-width:900px) {
     .features__title-s {
-
         position: relative;
         margin: auto;
         margin-bottom: 20px;
@@ -86,7 +85,6 @@
         display: flex;
         flex-direction: column;
         width: 500px;
-   
     }
     .features__list-item p {
         margin-left: 120px;
@@ -105,26 +103,25 @@
     .addons {
         padding-top: 0;
     }
-    .gallery__images{
+    .gallery__images {
         padding: 0;
     }
-    .footer__we{
+    .footer__we {
         margin: 0;
     }
-    .footer__inner{
+    .footer__inner {
         padding: 0 30px;
     }
 }
 
-
 @media (max-width:680px) {
-    .container__header{
+    .container__header {
         padding: 0 30px;
     }
-    .addons__text-box{
+    .addons__text-box {
         padding: 0 40px;
     }
-    .addons__cards{
+    .addons__cards {
         margin: auto;
         max-width: 330px;
     }
@@ -136,11 +133,9 @@
         width: calc(45% + 1.25rem);
         flex-direction: column;
     }
-  
     .partners {
         padding-top: 100px;
     }
-   
     .partners__logo {
         display: grid;
         grid-template-columns: repeat(3, min-content);
@@ -164,26 +159,26 @@
     .footer__we {
         margin: 0;
     }
-    .header__title{
+    .header__title {
         font-size: 46px;
-        line-height: 62px;  
+        line-height: 62px;
         min-width: 370px;
         padding: 0 5px;
     }
-    .header{
+    .header {
         margin-bottom: 0;
     }
-    .features{
+    .features {
         padding-top: 50px;
     }
-    .addons__cards-text{
+    .addons__cards-text {
         padding: 0 40px;
     }
-    .gallery__text{
+    .gallery__text {
         padding: 0 20px;
     }
-    .footer__list-item{
+    .footer__list-item {
         font-size: 16px;
-    line-height: 24px;
+        line-height: 24px;
     }
 }

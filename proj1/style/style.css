@@ -492,7 +492,7 @@ section addons */
     margin-bottom: 50px;
 }
 
-.parners__btn {
+.partners__btn {
     color: white;
     font-size: 17px;
     font-style: normal;
@@ -506,7 +506,7 @@ section addons */
     border: 1px solid var(--light-text, #FFF);
     transition: background 0.8s ease;
 }
-.parners__btn:hover{
+.partners__btn:hover{
     background:#4452FE;
     transition: 0.8s ease;
 }
