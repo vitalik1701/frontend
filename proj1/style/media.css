@@ -182,3 +182,22 @@
         line-height: 24px;
     }
 }
+
+@media (max-width:550px) {
+    .feedback__inner{
+        padding:  0 20px;
+    }
+    .features__list-item{
+        display: flex;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    align-items: center;
+    }
+    .features__texts{
+        margin: 0;
+    }
+    .features__list-item p {
+        margin-left: 0
+    }
+}
