@@ -60,7 +60,7 @@ body {
 .header {
     padding: 37.5px 0;
     height: 100%;
-    margin-bottom: 162px;
+    margin-bottom: 100px;
 }
 
 .title {
@@ -88,17 +88,21 @@ body {
     color: white;
     padding: 0 10px;
 }
-.menu__list-item{
+
+.menu__list-item {
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.8s ease;
 }
-.menu__list-item:hover{
+
+.menu__list-item:hover {
     border-bottom: 1px solid #4452FE;
     transition: 0.8s ease;
 }
+
 .menu__list-item:nth-child(1) {
     margin-right: 108px;
 }
+
 .menu__list-item:nth-child(1):hover {
     border-bottom: 1px solid transparent;
 }
@@ -106,6 +110,7 @@ body {
 .menu__list-item:last-child {
     margin-left: 108px;
 }
+
 .menu__list-item:last-child:hover {
     border-bottom: 1px solid transparent;
 }
@@ -120,7 +125,8 @@ body {
     color: var(--light-text, #FFF);
     transition: background 0.8s ease;
 }
-.header__btn:hover{
+
+.header__btn:hover {
     background: var(--dark-background, #4452FE);
     transition: 0.8s ease;
 }
@@ -164,13 +170,14 @@ body {
 
 .header__btn-try {
     background: var(--primary, #4452FE);
-    transition:background 0.8s ease;
+    transition: background 0.8s ease;
     padding: 10px 30px;
     align-items: center;
     color: inherit;
     border: none;
 }
-.header__btn-try:hover{
+
+.header__btn-try:hover {
     background: var(--dark-background, black);
     border: 1px solid #4452FE;
     transition: 0.8s ease;
@@ -180,11 +187,12 @@ body {
     margin-left: 35px;
     border: 1px solid var(--light-text, #FFF);
     background-color: transparent;
-    transition:background 0.8s ease;
+    transition: background 0.8s ease;
     color: inherit;
     padding: 10px 30px;
 }
-.header__btn-more:hover{
+
+.header__btn-more:hover {
     background: var(--dark-background, #4452FE);
     transition: 0.8s ease;
 }
@@ -235,10 +243,6 @@ body {
     flex-direction: row;
 }
 
-
-
-
-
 .features__content-right {
     display: flex;
     flex-direction: column;
@@ -255,35 +259,40 @@ body {
 .features__texts {
     max-width: 220px;
 }
-.features__title-s{
+
+.features__title-s {
     margin-bottom: 20px;
     margin-left: 20px;
     position: relative;
 }
-.spoon{
-    background: url(/images/vector1.png)  no-repeat ;
+
+.spoon {
+    background: url(/images/vector1.png) no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
     top: -4px;
     left: -30px;
 }
-.ufo{
-    background: url(/images/vector2.png)  no-repeat ;
+
+.ufo {
+    background: url(/images/vector2.png) no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
     top: -7px;
     left: -34px;
 }
-.infinity{
-    background: url(/images/vector3.png)  no-repeat ;
+
+.infinity {
+    background: url(/images/vector3.png) no-repeat;
     width: 45px;
     height: 40px;
     position: absolute;
     top: -1px;
     left: -44px;
 }
+
 
 /* 
 section addons */
@@ -350,6 +359,13 @@ section addons */
     padding: 20px 36px;
     align-items: center;
     color: white;
+    transition: background 0.8s ease;
+}
+
+.addons__left-btn:hover {
+    background: #181818;
+    transition: 0.8s ease;
+    color: white;
 }
 
 .addons__left-img,
@@ -375,6 +391,13 @@ section addons */
     align-items: center;
     background: var(--primary, #4452FE);
     color: white;
+    transition: background 0.8s ease;
+}
+
+.addons__right-btn:hover {
+    background: #181818;
+    transition: 0.8s ease;
+    color: white;
 }
 
 
@@ -393,12 +416,17 @@ section addons */
     margin: auto;
     margin-bottom: 44px;
     max-width: 450px;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
 }
 
 .gallery__images {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
+    max-width: 1200px;
 }
 
 .gallery_pics {
@@ -417,6 +445,12 @@ section addons */
     height: 52px;
     padding: 10px 30px;
     align-items: center;
+    transition: background 0.8s ease;
+}
+
+.gallery__btn:hover {
+    transition: 0.8s ease;
+    background: #4452FE;
 }
 
 
@@ -439,14 +473,14 @@ section addons */
     margin-bottom: 50px;
 }
 
-.parners__logo {
+.partners__logo {
     display: grid;
     grid-template-columns: repeat(6, min-content);
     justify-content: center;
     gap: 7%;
 }
 
-.parners-pic {
+.partners-pic {
     margin-bottom: 50px;
 }
 
@@ -462,6 +496,11 @@ section addons */
     height: 52px;
     padding: 10px 30px;
     border: 1px solid var(--light-text, #FFF);
+    transition: background 0.8s ease;
+}
+.parners__btn:hover{
+    background:#4452FE;
+    transition: 0.8s ease;
 }
 
 
@@ -516,6 +555,7 @@ section addons */
 
 .feedback-text {
     width: 300px;
+    overflow: scroll;
     max-height: 300px;
     margin-left: 40px;
 }
