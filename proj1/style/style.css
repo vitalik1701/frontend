@@ -11,16 +11,28 @@
 
 @font-face {
     font-family: 'Graphik';
-    src: url("/fonts/Graphik-Medium.woff2") format('woff2'),
-     url("/fonts/Graphik-Medium.woff") format('woff'),
-     url("/fonts/Graphik-Black.woff") format('woff'),
-     url("/fonts/Graphik-Black.woff2") format(woff2);
-    /* Дополнительные настройки, если необходимо */
+    src: local('Graphik-Regular'), url('/fonts/Graphik-Regular.woff2') format('woff2'), url('/fonts/Graphik-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
 }
 
-body {
-    font-family: 'Graphik', Arial, sans-serif;
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik-Light'), url('/fonts/Graphik-Light.woff2') format('woff2'), url('/fonts/Graphik-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
 }
+
+@font-face {
+    font-family: 'Graphik';
+    src: local('Graphik-Bold'), url('/fonts/Graphik-Bold.woff2') format('woff2'), url('/fonts/Graphik-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 a {
     text-decoration: none;
@@ -41,9 +53,9 @@ img {
 }
 
 body {
-    font-family: 'Graphik',Arial,sans-serif;
+    font-family: Graphik, Arial, Verdana, sans-serif;
     line-height: 120%;
-    font-weight: normal;
+
     background-color: rgba(24, 24, 24, 1);
     color: var(--light-text, #FFF);
 }
@@ -57,9 +69,7 @@ body {
 
 .title {
     color: var(--light-text, #FFF);
-    font-family: Graphik;
     font-size: 52px;
-    font-style: normal;
     font-weight: 400;
     line-height: 62px;
     letter-spacing: 0.2px;
@@ -70,7 +80,6 @@ body {
     color: var(--light-text, #FFF);
     text-align: center;
     font-size: 16px;
-    font-style: normal;
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.2px;
@@ -110,11 +119,10 @@ body {
 }
 
 .header__title {
-    font-family: Graphik;
     font-size: 80px;
     text-align: center;
     max-width: 700px;
-    font-weight: normal;
+
     line-height: 88px;
     letter-spacing: 0.2px;
     margin: auto;
@@ -124,9 +132,7 @@ body {
 .header__content-text {
     color: var(--light-text, #FFF);
     text-align: center;
-    font-family: Graphik;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -180,9 +186,7 @@ body {
 .features__text {
     color: var(--light-text, #FFF);
     max-width: 800px;
-    font-family: Graphik;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -250,7 +254,6 @@ section addons */
     margin-bottom: 44px;
     max-width: 552px;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -278,9 +281,7 @@ section addons */
 
 .addons__cards-title {
     text-align: center;
-    font-family: Graphik;
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.1px;
@@ -295,7 +296,6 @@ section addons */
 
 .addons__left-btn {
     display: inline-block;
-    font-family: Graphik;
     margin-bottom: 61px;
     background: var(--primary, #4452FE);
 
@@ -321,7 +321,6 @@ section addons */
 }
 
 .addons__right-btn {
-    font-family: Graphik;
 
     padding: 20px 36px;
     align-items: center;
@@ -362,9 +361,7 @@ section addons */
     color: var(--light-text, #FFF);
     border: 1px solid var(--light-text, #FFF);
     background-color: transparent;
-    font-family: Graphik;
     font-size: 17px;
-    font-style: normal;
     font-weight: 500;
     line-height: 25px;
     letter-spacing: 0.2px;
@@ -385,9 +382,7 @@ section addons */
 .partners__text {
     margin: auto;
     color: var(--light-text, #FFF);
-    font-family: Graphik;
     font-size: 20px;
-    font-style: normal;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
@@ -408,7 +403,6 @@ section addons */
 
 .parners__btn {
     color: white;
-    font-family: Graphik;
     font-size: 17px;
     font-style: normal;
     font-weight: 500;
