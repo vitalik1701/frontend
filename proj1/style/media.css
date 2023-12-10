@@ -105,6 +105,15 @@
     .addons {
         padding-top: 0;
     }
+    .gallery__images{
+        padding: 0;
+    }
+    .footer__we{
+        margin: 0;
+    }
+    .footer__inner{
+        padding: 0 30px;
+    }
 }
 
 
@@ -124,7 +133,7 @@
         align-content: center;
     }
     .gallery_pics {
-        width: calc(75% + 1.25rem);
+        width: calc(45% + 1.25rem);
         flex-direction: column;
     }
   
@@ -155,9 +164,6 @@
     .footer__we {
         margin: 0;
     }
-}
-
-@media (max-width:680px){
     .header__title{
         font-size: 46px;
         line-height: 62px;  
@@ -175,5 +181,9 @@
     }
     .gallery__text{
         padding: 0 20px;
+    }
+    .footer__list-item{
+        font-size: 16px;
+    line-height: 24px;
     }
 }

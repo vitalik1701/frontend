@@ -19,11 +19,11 @@
                     <li class="menu__list-item">
                         <a href="#" class="menu__link"><img src="/images/slate.png" alt="logo slate"></a>
                     </li>
-                    <li class="menu__list-item"><a href="#" class="menu__link">Возможности</a></li>
-                    <li class="menu__list-item"><a href="#" class="menu__link">Расширения</a></li>
-                    <li class="menu__list-item"><a href="#" class="menu__link">Галерея</a></li>
-                    <li class="menu__list-item"><a href="#" class="menu__link">Отзывы</a></li>
-                    <li class="menu__list-item"><button class="header__btn">Войти</button></li>
+                    <li class="menu__list-item"><a href="#features-go" class="menu__link">Возможности</a></li>
+                    <li class="menu__list-item"><a href="#addonsup" class="menu__link">Расширения</a></li>
+                    <li class="menu__list-item"><a href="#galleryMe" class="menu__link">Галерея</a></li>
+                    <li class="menu__list-item"><a href="#returnUser" class="menu__link">Отзывы</a></li>
+                    <li class="menu__list-item"><button  role="button" class="header__btn" aria-label="Войти">Войти</button></li>
                 </ul>
             </nav>
             <div class="header__content">
@@ -35,8 +35,8 @@
                         </p>
                     </div>
                     <div class="header__button-box">
-                        <button class="header__btn-try">Попробовать бесплатно</button>
-                        <button class="header__btn-more">Узнать больше</button>
+                        <button role="button" class="header__btn-try">Попробовать бесплатно</button>
+                        <button role="button" class="header__btn-more">Узнать больше</button>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
     <main class="main">
 
 
-        <section class="features">
+        <section class="features" id="features-go">
             <div class="container">
                 <div class="features__inner">
                     <div class="features__t">
@@ -102,7 +102,7 @@
 
 
 
-        <section class="addons">
+        <section class="addons" id="addonsup">
             <div class="container">
                 <div class="addons__inner">
                     <div class="addons__text-box">
@@ -117,7 +117,7 @@
                             <p class="addons__cards-text">
                                 Вы когда-нибудь задумывались, хорошо ли защищён ваш рабочий аккаунт? Slate Safe поможет вам с этим.
                             </p>
-                            <button class="addons__left-btn">
+                            <button role="button" class="addons__left-btn">
                         Скачать
                     </button>
                             <img src="/images/left-screen.jpg" alt="some left screen" class="addons__left-img">
@@ -127,7 +127,7 @@
                             <p class="addons__cards-text">
                                 Свяжите задачи в Slate Connect с задачами в других системах планирования проектов.
                             </p>
-                            <button class="addons__right-btn">
+                            <button role="button" class="addons__right-btn">
                         Попробовать бесплатно
                     </button>
                             <img src="/images/right-screen.png" alt="some right screen" class="addons__right-img">
@@ -138,7 +138,7 @@
         </section>
 
 
-        <section class="gallery">
+        <section class="gallery" id="galleryMe">
             <div class="container">
                 <div class="gallery__inner">
                     <div class="gallery__text-block">
@@ -152,12 +152,12 @@
                         <img src="/images/pic1.jpg" alt="some funny pictures" class="gallery_pics">
                         <img src="/images/pic2.png" alt="some funny pictures" class="gallery_pics">
                         <img src="/images/pic3.png" alt="some funny pictures" class="gallery_pics">
-                        <img src="/images/pic4.png" alt="some funny pictures" class="gallery_pics hide">
+                        <img src="/images/pic4.png" alt="some funny pictures" class="gallery_pics ">
                         <img src="/images/pic5.png" alt="some funny pictures" class="gallery_pics hide">
                         <img src="/images/pic6.png" alt="some funny pictures" class="gallery_pics hide">
                         <img src="/images/pic7.png" alt="some funny pictures" class="gallery_pics hide">
                     </div>
-                    <button class="gallery__btn">
+                    <button role="button" class="gallery__btn">
                 Смотреть еще
             </button>
                 </div>
@@ -166,14 +166,14 @@
 
 
 
-        <section class="partners">
+        <section class="partners" id="relations">
             <div class="container">
                 <div class="partners__inner">
                     <h2 class="title">Партнёры</h2>
                     <p class="partners__text">
                         Коллаборация с партнерами дает дополнительные возможности в использовании Slate.
                     </p>
-                    <div class="parners__logo">
+                    <div class="partners__logo">
                         <a href="" class="partners-link"><img src="/images/logo1.svg" alt="partners logo" class="partners-pic"></a>
                         <a href="" class="partners-link"><img src="/images/logo2.svg" alt="partners logo" class="partners-pic"></a>
                         <a href="" class="partners-link"><img src="/images/logo3.svg" alt="partners logo" class="partners-pic"></a>
@@ -182,7 +182,7 @@
                         <a href="" class="partners-link"><img src="/images/logo6.svg" alt="partners logo" class="partners-pic">
                         </a>
                     </div>
-                    <button class="parners__btn">
+                    <button role="button" class="parners__btn">
                 Все партнёры
             </button>
                 </div>
@@ -191,54 +191,57 @@
 
 
 
-        <section class="feedback">
+        <section class="feedback" id="returnUser">
             <div class="container">
                 <h2 class="title">Отзывы</h2>
                 <div class="feedback__inner">
-                    <div class="feedback__card">
-                        <h4 class="feedback__card-title">Алёна Романова</h4>
-                                <span>
-                            <img src="/images/face1.svg" alt="feedbback user 1">
-                                Дизайнер
-                                </span>
-                        <p class="feedback-text">
-                            Slate поможет вам узнать, сколько еще дней нужно работать, чтобы достичь своей финансовой цели на месяц и год. А расширение защиты позаботится о безопасности данных.
-                        </p>
-                    </div>
-                    <div class="feedback__card">
-                        <h4 class="feedback__card-title">Евгений Титов</h4>
+                
+                                <div class="feedback__user">
+                                    <div class="feedback__user-info">
+                                      <img src="/images/face1.svg" alt="avatar">
+                                      <div class="feedback__user-text">
+                                        <p>Алёна Романова</p>
+                                        <p>Дизайнер</p>
+                                      </div>
+                                    </div>
+                                    <p class="feedback__user-descr">Slate поможет вам узнать, сколько еще дней нужно работать, чтобы достичь своей финансовой цели на месяц и год. А расширение защиты позаботится о безопасности данных.</p>
+                                  </div>
 
-                        <span>
-                    <img src="/images/face2.svg" alt="feedbback user 2">
-                    Инженер
-                </span>
-                        <p class="feedback-text">
-                            Я в восторге от этого приложения! Оно является удобным инструментом в моей обычной работе дизайнера. Интерфейс приложения прост, что делает работу в нем более эффективной.
-                        </p>
-                    </div>
-                    <div class="feedback__card">
-                        <h4 class="feedback__card-title">Роман Васильев</h4>
 
-                        <span>
-                    <img src="/images/face3.svg" alt="feedbback user 3">
-                    Дизайнер
-                </span>
-                        <p class="feedback-text">
-                            Приложение – настоящий подарок для инженеров! Оно предоставляет впечатляющий набор инструментов, который существенно упрощает и оптимизирует нашу работу.
-                        </p>
-                    </div>
-                    <div class="feedback__card">
-                        <h4 class="feedback__card-title">Лиза Ковалёва</h4>
+                                  <div class="feedback__user">
+                                    <div class="feedback__user-info">
+                                      <img src="/images/face2.svg" alt="avatar">
+                                      <div class="feedback__user-text">
+                                        <p>Евгений Титов</p>
+                                        <p>Инженер</p>
+                                      </div>
+                                    </div>
+                                    <p class="feedback__user-descr">Я в восторге от этого приложения! Оно является удобным инструментом в моей обычной работе дизайнера. Интерфейс приложения прост, что делает работу в нем более эффективной.</p>
+                                  </div>
+             
+                                  
+                                  <div class="feedback__user">
+                                    <div class="feedback__user-info">
+                                      <img src="/images/face3.svg" alt="avatar">
+                                      <div class="feedback__user-text">
+                                        <p>Роман Васильев</p>
+                                        <p>Дизайнер</p>
+                                      </div>
+                                    </div>
+                                    <p class="feedback__user-descr">Приложение – настоящий подарок для инженеров! Оно предоставляет впечатляющий набор инструментов, который существенно упрощает и оптимизирует нашу работу.</p>
+                                  </div>
 
-                        <span>
-                    <img src="/images/face4.svg" alt="feedbback user 4">
-                    Копирайтер
-                </span>
-                        <p class="feedback-text">
-                            Это приложение стало настоящим спасением для меня, как для копирайтера. Оно умело сочетает все необходимые инструменты для творческого процесса, делая мою работу более удобной.
-                        </p>
-                    </div>
-                    
+                                  <div class="feedback__user">
+                                    <div class="feedback__user-info">
+                                      <img src="/images/face4.svg" alt="avatar">
+                                      <div class="feedback__user-text">
+                                        <p>Лиза Ковалёва</p>
+                                        <p>Копирайтер</p>
+                                      </div>
+                                    </div>
+                                    <p class="feedback__user-descr">Это приложение стало настоящим спасением для меня, как для копирайтера. Оно умело сочетает все необходимые инструменты для творческого процесса, делая мою работу более удобной.</p>
+                                  </div>
+
                 </div>
             </div>
         </section>
