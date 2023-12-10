@@ -1,3 +1,21 @@
+@media (max-width:930px) {
+    .addons__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .addons___left,
+    .addons__right {
+        width: 100%;
+        margin: 0;
+    }
+    .addons___left {
+        margin-bottom: 20px;
+    }
+    .addons {
+        padding-top: 0;
+    }
+}
+
 @media (max-width:900px) {
     .header {
         margin-bottom: 50px;
