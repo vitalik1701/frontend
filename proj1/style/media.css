@@ -1,0 +1,111 @@
+@media (max-width:900px) {
+    .header {
+        margin-bottom: 50px;
+    }
+    .header__title {
+        font-size: 50px;
+    }
+    .menu__list-item {
+        display: none;
+    }
+    .menu__list-item:first-child,
+    .menu__list-item:last-child {
+        display: block;
+    }
+    .gallery {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width:750px) {
+    .header__button-box {
+        padding-top: 85px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-evenly;
+        margin: 30px;
+        align-items: flex-start;
+    }
+    .header__btn-try {
+        margin-bottom: 15px;
+    }
+    .features__content {
+        flex-direction: column;
+    }
+    .features__left-second {
+        width: calc(100% + 1.25rem);
+    }
+    .features__right-list {
+        margin: 0;
+        width: 310px;
+    }
+    .features__content-right {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .features__list-item {
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        text-align: center;
+    }
+    .features__list-item p {
+        margin-left: 120px;
+    }
+    .addons__cards {
+        align-items: center;
+    }
+    .addons___left,
+    .addons__right {
+        width: 100%;
+        margin: 0;
+    }
+    .addons___left {
+        margin-bottom: 20px;
+    }
+    .addons {
+        padding-top: 0;
+    }
+}
+
+@media (max-width:680px) {
+    .gallery__images {
+        flex-direction: column;
+    }
+    .gallery_pics {
+        width: calc(100% + 1.25rem);
+    }
+    .gallery_pics:nth-child(2n) {
+        display: none;
+    }
+    .partners {
+        padding-top: 100px;
+    }
+    .parners__logo {
+        display: grid;
+        grid-template-columns: repeat(3, min-content);
+        justify-content: center;
+        gap: 7%;
+        margin-bottom: 40px;
+    }
+    /* hello world */
+    .footer__inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .feedback {
+        padding-top: 50px;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer__we {
+        margin: 0;
+    }
+}
