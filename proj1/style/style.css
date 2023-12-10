@@ -1,6 +1,8 @@
 *,
 *::before,
 *::after {
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;  
     box-sizing: border-box;
 }
 
@@ -586,8 +588,16 @@ section addons */
 
 .footer__list-item {
     margin-bottom: 19px;
+    transition: color 0.8s ease;
+}
+.footer__list-item:hover{
+    color:red; 
+    transition: 0.8s ease;
 }
 
 .footer__we {
     margin-right: 200px;
+}
+.socials a{
+    margin-right: 30px;
 }
