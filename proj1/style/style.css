@@ -208,14 +208,14 @@ body {
 
 .features__text {
     color: var(--light-text, #FFF);
-    max-width: 800px;
+    max-width: 815px;
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.2px;
     text-align: center;
     margin: auto;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .features__left-second {
@@ -235,18 +235,9 @@ body {
     flex-direction: row;
 }
 
-.features__list-item span {
-    margin-bottom: 20px;
-}
 
-.features__list-item span img {
-    margin-right: 10px;
-}
 
-.features__list-item span {
-    display: inline-block;
-    /* padding-bottom: 26px; */
-}
+
 
 .features__content-right {
     display: flex;
@@ -258,12 +249,41 @@ body {
 
 .features__list-item {
     padding: 20px;
+    margin-bottom: 25px;
 }
 
-.features__list-item p {
-    width: 220px;
+.features__texts {
+    max-width: 220px;
 }
-
+.features__title-s{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+.spoon{
+    background: url(/images/vector1.png)  no-repeat ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -4px;
+    left: -30px;
+}
+.ufo{
+    background: url(/images/vector2.png)  no-repeat ;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -7px;
+    left: -34px;
+}
+.infinity{
+    background: url(/images/vector3.png)  no-repeat ;
+    width: 45px;
+    height: 40px;
+    position: absolute;
+    top: -1px;
+    left: -44px;
+}
 
 /* 
 section addons */

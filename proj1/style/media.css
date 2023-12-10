@@ -35,7 +35,13 @@
     }
 }
 
-@media (max-width:750px) {
+@media (max-width:900px) {
+    .features__title-s {
+
+        position: relative;
+        margin: auto;
+        margin-bottom: 20px;
+    }
     .header__button-box {
         padding-top: 85px;
         display: flex;
@@ -63,7 +69,8 @@
         padding-top: 30px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
+        margin: auto;
     }
     .features__list-item {
         display: flex;
@@ -103,6 +110,7 @@
     .partners {
         padding-top: 100px;
     }
+   
     .parners__logo {
         display: grid;
         grid-template-columns: repeat(3, min-content);
