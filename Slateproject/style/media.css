@@ -2,6 +2,7 @@
     .footer__inner{
         padding: 0 20px;
     }
+
 }
 
 @media (max-width:930px) {
@@ -49,10 +50,16 @@
         gap: 0;
         text-align: start;
     }
+    body {
+        overflow-x: hidden;
+    }
 
 }
 
 @media (max-width:900px) {
+    body {
+        overflow-x: hidden;
+    }
     .features__title-s {
         position: relative;
         margin: auto;
@@ -111,7 +118,7 @@
         padding-top: 0;
     }
     .gallery__images {
-        padding: 0;
+        padding: 0 20px;
     }
     .footer__we {
         margin: 0;
@@ -119,9 +126,22 @@
     .footer__inner {
         padding: 0 30px;
     }
+    .header__content-text{
+        padding: 0 20px;
+    }
+}
+
+
+@media (max-width: 710px){
+    .partners__logo{
+        gap: 5%;
+    }
 }
 
 @media (max-width:680px) {
+    body {
+        overflow-x: hidden;
+    }
     .container__header {
         padding: 0 30px;
     }
@@ -191,6 +211,9 @@
 }
 
 @media (max-width:550px) {
+    body {
+        overflow-x: hidden;
+    }
     .feedback__inner{
         padding:  0 20px;
     }
