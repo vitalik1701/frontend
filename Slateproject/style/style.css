@@ -23,11 +23,12 @@
 .container {
     max-width: 1100px;
     margin: 0 auto;
+    height: 100%;
 }
 
 @font-face {
     font-family: 'Graphik';
-    src: local('Graphik-Regular'), url('/frontend/Slateproject/fonts/Graphik-Regular.woff2') format('woff2'), url('/frontend/Slateproject/fonts/Graphik-Regular.woff') format('woff');
+    src: local('Graphik-Regular'), url('/fonts/Graphik-Regular.woff2') format('woff2'), url('/fonts/Graphik-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -35,7 +36,7 @@
 
 @font-face {
     font-family: 'Graphik';
-    src: local('Graphik-Light'), url('/frontend/Slateproject/fonts/Graphik-Light.woff2') format('woff2'), url('/frontend/Slateproject/fonts/Graphik-Light.woff') format('woff');
+    src: local('Graphik-Light'), url('/fonts/Graphik-Light.woff2') format('woff2'), url('/fonts/Graphik-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -43,7 +44,7 @@
 
 @font-face {
     font-family: 'Graphik';
-    src: local('Graphik-Bold'), url('/frontend/Slateproject/fonts/Graphik-Bold.woff2') format('woff2'), url('/frontend/Slateproject/fonts/Graphik-Bold.woff') format('woff');
+    src: local('Graphik-Bold'), url('/fonts/Graphik-Bold.woff2') format('woff2'), url('/fonts/Graphik-Bold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
     font-display: swap;
@@ -85,6 +86,7 @@ body {
     padding: 37.5px 0;
     height: 100%;
     margin-bottom: 10vh;
+    position: relative;
 }
 
 .title {
@@ -259,25 +261,15 @@ body {
     width: 100%;
 } */
 .header__background {
-    /* Устанавливаем размеры контейнера на весь экран */
-    max-width: 100vw;
-    height: 105vh;
-    /* Добавляем стиль фона и центрируем изображение */
-    background-image: url('/frontend/Slateproject/images/screens.png');
-    background-size: cover; /* Растягивает изображение на весь контейнер */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Запрещает повторение изображения */
-    z-index: 1;
-
+    width: 100%;
+    height: 100vh;
+    background-image: url('/images/screens.png');
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
 }
 
 
-/* .header__background-img {
-    /* Добавьте стили для изображения, если это необходимо */
-    width: 100%; /* Замените на желаемую ширину */
-    height: auto; /* Автоматически рассчитывает высоту, сохраняя пропорции */
-    display: block; /* Убирает нежелательные отступы снизу изображения */
-} */
 
 
 
@@ -363,7 +355,7 @@ body {
 }
 
 .spoon {
-    background: url(/frontend/Slateproject/images/vector1.png) no-repeat;
+    background: url(/images/vector1.png) no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -372,7 +364,7 @@ body {
 }
 
 .ufo {
-    background: url(/frontend/Slateproject/images/vector2.png) no-repeat;
+    background: url(/images/vector2.png) no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -381,7 +373,7 @@ body {
 }
 
 .infinity {
-    background: url(/frontend/Slateproject/images/vector3.png) no-repeat;
+    background: url(/images/vector3.png) no-repeat;
     width: 45px;
     height: 40px;
     position: absolute;
